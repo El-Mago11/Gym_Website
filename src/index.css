@@ -1,0 +1,352 @@
+@import "tailwindcss";
+#full-section{
+  scroll-behavior: smooth;
+}
+
+
+/* NavBar */
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.nav-links{
+  cursor: pointer;
+  
+}
+.nav-links:hover{
+  color:#A91CFF ;
+  transition: 0.5s ease;
+}
+.drop-links{
+  color:#181818 ;
+  border: none;
+}
+.drop-links:hover{
+  background-color:#181818 ;
+  color: #A91CFF;
+  border: none;
+}
+.li-style{
+  list-style-type: disc;
+}
+/* Carousel */
+.slider-heading{
+ font-size: 40px;
+ margin-top: -500px;
+ text-align: left;
+ color: white;
+ top: 200px;
+ position: relative;
+ top: -300px;
+ padding-top: 0px;
+}
+.slider-text{
+  font-size: 20px;
+  color: white;
+}
+.slider-span{
+  color: rgb(21, 222, 222);
+}
+.heading1{
+  position: relative;
+  left: 700px;
+  top: -320px;
+}
+.text1{
+  position: relative;
+  left: 700px;
+  top: -305px;
+  text-align: justify;
+}
+.heading2{
+  position: relative;
+  left: 100px;
+  top: -160px;
+  text-align: justify;
+}
+.text2{
+  position: relative;
+  left: 100px;
+  top: -145px;
+  text-align: justify;
+}
+.heading3{
+  position: relative;
+  left: 30px;
+  top: -160px;
+  text-align: justify;
+}
+.text3{
+  position: relative;
+  left: 30px;
+  top: -145px;
+  text-align: justify;
+}
+/* buttons */
+.btns{
+  border: 1px solid #A91CFF;
+  background-color: #A91CFF;
+  padding: 7px;
+  color: #FFFF;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.btns1{
+  position: relative;
+  left: 700px;
+  top: -295px;
+  text-align: justify;
+}
+.btns2{
+  position: relative;
+  left: 100px;
+  top: -130px;
+  text-align: justify;
+}
+.btns3{
+  position: relative;
+  left: 30px;
+  top: -130px;
+  text-align: justify;
+}
+.btns:hover{
+  background-color:rgb(21, 222, 222); 
+  transition: 0.5s ease;
+  border: none;
+  color: #181818;
+}
+
+               /*ABOUT  */
+/* Section heading and text */
+.section-heading{
+  font-size: 38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+  padding-top: 20px;
+
+}
+.section-text{
+  font-size: 20px;
+  
+  margin: 20px;
+}
+.about-content-image{
+  margin-left: 20px;
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
+
+.about-content-text{
+  position: relative;
+  top: -350px;
+  left: 700px;
+  width: 500px;
+}
+.about-content-heading{
+  color:rgb(21, 222, 222) ;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.about-content-paragraph{
+  color: #181818;
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.offer-div{
+position: relative;
+top: -80px;
+}
+.offer-image{
+  margin-left: 640px;
+  margin-top: -100px;
+
+
+}
+.offer-text{
+  margin-left: -650px;
+  
+}
+.why-div{
+  position: relative;
+  top: -300px;
+}
+.why-text{
+  margin-top: -20px;
+
+}
+         /*Classes  */
+.classes-div{
+  position: relative;
+  top: -550px;
+ 
+}
+.class-text-div{
+  /* border: 1px solid black; */
+  width: 300px;
+  height: 50px;
+  position: relative;
+  top: -30px;
+  left: 50px;
+  background-color: #FFFF;
+}
+
+.class-title{
+  font-size: 25px;
+  text-align: center;
+  padding: 3px;
+}
+.classes-image{
+  width: 400px;
+  height: 300px;
+  padding-left: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 1.3s;  
+  
+}
+.class-list{
+  width: calc(100% /3 -110px);
+}
+
+.classes-image:hover{
+  transform: scale(1.15);
+}
+         /* Class Schedule */
+.schedule{
+  position: relative;
+  top: -550px;
+}
+table{
+justify-content: center;
+margin-left: 80px;
+border: 1px solid black;
+
+}
+td{
+  text-align: center;
+  border: 1px solid black;
+  width: 140px;
+  height: 140px;
+}
+th{
+  border: 1px solid black;
+  /* background-color: grey; */
+}
+          /* Trainers */
+.trainers-section{
+  position:relative;
+  top: -550px;
+}
+.trainer-image{
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+  margin-bottom: 100px;
+  object-fit: cover;
+}
+.trainer-image-description{
+  border: 1px solid black;
+  position: relative;
+  margin-left: 40px;
+  width: 300px;
+  height: 120px;
+  top: -100px;
+  border: none;
+  
+}
+.trainer-name{
+  font-size: 24px;
+  text-align: center;
+}
+.trainer-type{
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+}
+.icons{
+ 
+  margin-top: 10px;
+  width: 8%;
+}
+.icons:hover{
+  color:red;
+}
+/* Event */
+.event-h1{
+color: #FFFF;
+}
+
+/* Pricing */
+.price-list{
+  list-style-type: disc;
+  margin-left: 30px;
+}
+
+.price-section{
+  border-radius: 15px;
+  width: 400px;
+  height: 380px;
+}
+
+/* Testimonial section */
+.testimonial-section{
+  padding: 50px 0 100px;
+  background-color: #f0e5e6;
+}
+
+.testimonial-section .testimonial{
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  align-items: center;
+  text-align: center;
+}
+
+.testimonial-image{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+.name{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.testimonial .feedback{
+  line-height:25px;
+}
+.swiper-button-next .swiper-button-prev{
+  color: #181818;
+}
+/* Contact */
+/*  */
+.location{
+  color: #A91CFF;
+}
+
+.map-responsive{
+  overflow:  hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+ .contact-section{
+  background-color:#FFFF ;
+ }
+/* Footer */
+.footer-section{
+  background-color: #181818;
+  color: #FFFF;
+  margin-bottom: 0;
+  margin-top: auto;
+}
