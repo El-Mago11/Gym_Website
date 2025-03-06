@@ -38,49 +38,49 @@ const ContactUs = () => {
   };
 
   return (
-    <div className=' relative bottom-140 contact-section'>
+    <div className=' relative bottom-100 contact-section'>
       <h1 className='section-heading'>Contact US</h1>
       <div className='flex gap-15 relative mt-20'>
          <div className='mt-20 w-140 '>
-         <ul className='flex flex-col gap-4 ml-15'>
+         <ul className='flex flex-col gap-4 ml-15 section-text contact-details'>
         <li>
-        <FontAwesomeIcon icon={faLocationDot} size="2x" color="black" />
-         <span>Ayeduase, Kumasi</span>
+        <FontAwesomeIcon className='icons' icon={faLocationDot} size="2x" color="black" />
+         <span className='ml-5'>Ayeduase, Kumasi</span>
           </li>
 
           <li>
-      <FontAwesomeIcon icon={faEnvelope}  size="2x" />
-         <span><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
+      <FontAwesomeIcon className='icons' icon={faEnvelope}  size="2x" />
+         <span className='ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
         </li>
 
         <li>
-       <FontAwesomeIcon icon={faPhone}  size="2x"/>
-       <span><a href="tel:+233534236387">+233 53 423 6387</a></span>
+       <FontAwesomeIcon className='icons' icon={faPhone}  size="2x"/>
+       <span className='ml-5'><a href="tel:+233534236387">+233 53 423 6387</a></span>
     </li>
 
     <li>
-    <FontAwesomeIcon icon={faClock}  size="2x"/>
-    <span>Monday - Saturday: 6:00AM to 8:30 PM</span>
+    <FontAwesomeIcon className='icons' icon={faClock}  size="2x"/>
+    <span className='ml-5'>Monday - Saturday: 6:00AM to 8:30 PM</span>
     </li>
 
     <li>
-    <FontAwesomeIcon icon={faClock}  size="2x"/>
-    <span>Sunday: 2:00PM to 8:30 PM</span>
+    <FontAwesomeIcon className='icons' icon={faClock}  size="2x"/>
+    <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
     </li>
 
     <li>
-    <FontAwesomeIcon icon={faFacebook} size="2x"/>
-    <span>Sunday: 2:00PM to 8:30 PM</span>
+    <FontAwesomeIcon  className='icons'icon={faFacebook} size="2x"/>
+    <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
     </li>
 
     <li>
-    <FontAwesomeIcon icon={faInstagram} size="2x"/>
-    <span>Sunday: 2:00PM to 8:30 PM</span>
+    <FontAwesomeIcon className='icons' icon={faInstagram} size="2x"/>
+    <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
     </li>
   </ul>
          </div>
 <div className='map-responsive'>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.3956282760596!2d-1.562193837250855!3d6.672767117958724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb9462c61ac6a1%3A0x6e821527cb479c7a!2sMojo%201%20Gym!5e0!3m2!1sen!2sgh!4v1741045657367!5m2!1sen!2sgh" 
+<iframe className='google-map' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1981.3956282760596!2d-1.562193837250855!3d6.672767117958724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb9462c61ac6a1%3A0x6e821527cb479c7a!2sMojo%201%20Gym!5e0!3m2!1sen!2sgh!4v1741045657367!5m2!1sen!2sgh" 
 width="600" height="450" 
 allowFullScreen loading="lazy" 
 referrerPolicy="no-referrer-when-downgrade"
@@ -94,7 +94,7 @@ title='Responsive Google Map'
       <div>
 
       </div>
-          <form onSubmit={onSubmit} action="" className='text-center'>
+          <form onSubmit={onSubmit} action="" className='text-center section-text form-sect'>
             <label htmlFor="Name" className='ml-9 mr-4'>Name:</label>
             <input type="text" name='Name' className='border rounded h-8  px-4 mt-2 py-3'  placeholder=' Enter your name ' required />
           

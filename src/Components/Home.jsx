@@ -7,7 +7,7 @@ import { assets } from '../assets/assets';
 
 const Home = () => {
   return (
-    <div id='Home' className=''>
+    <div id='Home' className='home-section'>
            <Carousel className='carousel'
 
 
@@ -46,7 +46,7 @@ const Home = () => {
                                                 you need to level up. From cutting-edge equipment to dynamic <br />
                                                 classes, it’s time to push your limits. 
           </p>
-          <div className='btns2'>
+          <div className='btns2 '>
             <button className='btns'><a href="#Contact">Contact Us</a>
             </button>
             <button className='btns gap-2'><a href="#Contact">Register Now</a>

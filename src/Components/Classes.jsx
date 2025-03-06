@@ -3,8 +3,8 @@ import { assets, colours } from '../assets/assets'
 
 const Classes = () => {
   return (
-    <div id='Classes' className='classes-div ' style={{backgroundColor:colours.aqua}}>
-      <div>
+    <div  className='classes-div ' style={{backgroundColor:colours.aqua}}>
+      <div id='Classes'>
       <h1 className='section-heading'>Our Classes</h1>
       <p className='section-text'>
       At FitZone Gym, we offer a wide variety of classes to help you stay motivated, push your limits, and achieve your fitness goals. Whether you're looking to build strength, improve flexibility, or boost your endurance, we’ve got a class for you!      </p>  
@@ -14,7 +14,7 @@ const Classes = () => {
         <br /><br />
            <ul className='class-list flex flex-wrap gap-5 overflow-hidden'>
            
-            <li>
+            <li className=''>
             <img className='classes-image' src={assets.bodybuilding} alt="" />
                 <div className='class-text-div'>
                          <p className='class-title'>BODY BUILDING</p>

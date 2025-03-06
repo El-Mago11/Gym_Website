@@ -3,30 +3,37 @@ import { assets } from '../assets/assets'
 
 const About = () => {
   return (
-    <div id='About'>
-      <div>
+    <div id='About' className='about-section'>
+      <div className='about-section-main'>
+        <div >
         
-      <h1 className='section-heading'>ABOUT US</h1>
-      <p className='section-text'>
-      At FitZone Gym, we believe in empowering individuals to lead healthier, more active lives. Whether you're just beginning your fitness journey or you're an experienced athlete, our goal is to help you reach your full potential through personalized training programs, state-of-the-art equipment, and a supportive community.
-      </p>      
-      </div>
-      <br /><br />
-      <div>
-        <img src={assets.mission} className='about-content-image' alt="Our Mission" />
-          <div className='about-content-text'>
-            <h2 className='about-content-heading font-bold'>Our Mission</h2>
-            <p className='about-content-paragraph'>
-            Our mission is to provide a welcoming and motivating environment where you can push yourself beyond your limits, achieve your goals, and become the best version of yourself. We're more than just a gym – we’re a community of fitness enthusiasts committed to growth, strength, and wellbeing.
-            </p>
+          <h1 className='section-heading'>ABOUT US</h1>
+           <p className='section-text'>
+          At FitZone Gym, we believe in empowering individuals to lead healthier, more active lives. Whether you're just beginning your fitness journey or you're an experienced athlete, our goal is to help you reach your full potential through personalized training programs, state-of-the-art equipment, and a supportive community.
+          </p>      
+         </div>
+         <br /><br />
+           <div className='about-section-container'>
+            <div className='mission-div'>
+              <div>
+              < img src={assets.mission} className='about-content-image' alt="Our Mission" />
+              </div>
+
+              <div className='about-content-text mission-text'>
+              <h2 className='about-content-heading font-bold'>Our Mission</h2>
+              <p className='about-content-paragraph'>
+             Our mission is to provide a welcoming and motivating environment where you can push yourself beyond your limits, achieve your goals, and become the best version of yourself. We're more than just a gym – we’re a community of fitness enthusiasts committed to growth, strength, and wellbeing.
+               </p>
+              </div>
+           
           </div>
+
+         <div className='offer-div'>
+           <img src={assets.offer} className='about-content-image offer-image' alt="Our Mission" />          
            
       </div>
-
-      <div className='offer-div'>
-        <img src={assets.offer} className='about-content-image offer-image' alt="Our Mission" />
-          <div className='about-content-text offer-text '>
-            <h2 className='about-content-heading font-bold'>What We Offer
+      <div className='about-content-text offer-text '>
+            <h2 className='about-content-heading font-bold offer-h'>What We Offer
             </h2>
             <p className='about-content-paragraph'>
                 <p> <span className='font-bold'>Personal Training:</span>  Tailored fitness plans that match your goals, lifestyle, and needs. </p>
@@ -36,8 +43,6 @@ const About = () => {
 
             </p>
           </div>
-           
-      </div>
 
       <div className='why-div'>
         <img src={assets.why} className='about-content-image why-image' alt="Our Mission" />
@@ -50,9 +55,13 @@ const About = () => {
             <p className=' mt-2'> <span className='font-bold' ></span> Join us today and be part of a fitness journey that will change your life.  </p> 
          </p>
           </div>
+      </div>
+      
            
       </div>
+      </div>
     </div>
+    
   )
 }
 
