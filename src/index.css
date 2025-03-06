@@ -16,6 +16,18 @@
   --font-size-xxl: 2.3rem;
 
   /* colours */
+  --black-colour: #181818;
+  --purple-colour: #a91cff;
+  --soft-pink-colour: #f0e5e6;
+  --white-colour: #FFFF;
+  --orange-colour:  #ff5722;
+  --blue-colour:   rgb(21, 222, 222);  
+
+
+
+  
+
+
 }
 
 #full-section {
