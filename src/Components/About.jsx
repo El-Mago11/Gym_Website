@@ -31,8 +31,7 @@ const About = () => {
          <div className='offer-div'>
            <img src={assets.offer} className='about-content-image offer-image' alt="Our Mission" />          
            
-      </div>
-      <div className='about-content-text offer-text '>
+           <div className='about-content-text offer-text '>
             <h2 className='about-content-heading font-bold offer-h'>What We Offer
             </h2>
             <p className='about-content-paragraph'>
@@ -43,6 +42,8 @@ const About = () => {
 
             </p>
           </div>
+      </div>
+     
 
       <div className='why-div'>
         <img src={assets.why} className='about-content-image why-image' alt="Our Mission" />
