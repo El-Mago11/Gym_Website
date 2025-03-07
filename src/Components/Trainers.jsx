@@ -1,5 +1,9 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { faFacebook, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Trainers = () => {
   return (
@@ -18,11 +22,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Bodybuiliding Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
-
+                             <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
                         </div>
                     </div>
                 </div>
@@ -34,10 +58,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Fitness Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -50,10 +95,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>CrossFit Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons ' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -67,10 +133,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Jane Foster</h2>
                         <p className='trainer-type'>Yoga Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -84,10 +171,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Martial Arts Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -101,11 +209,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Cardio Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
-
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
                         </div>
                     </div>
                 </div>
@@ -118,10 +246,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Personal Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -135,10 +284,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Personal Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>
@@ -152,10 +322,31 @@ const Trainers = () => {
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
                         <p className='trainer-type'>Bodybuiliding Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
-                            <img className='icons' src={assets.fb} alt="" />
-                            <img className='icons' src={assets.call} alt="" />
-                            <img className='icons' src={assets.ig} alt="" />
-                            <img className='icons' src={assets.x} alt="" />
+                        <FontAwesomeIcon 
+                                       icon={faFacebook}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faPhone}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>                                        
+                                       
+                                        <FontAwesomeIcon 
+                                       icon={faInstagram}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
+                                       <FontAwesomeIcon 
+                                       icon={faTwitter}
+                                       className='nav-links footer-images mt-3'
+                                       >
+                                           
+                                       </FontAwesomeIcon>
 
                         </div>
                     </div>

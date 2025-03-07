@@ -98,7 +98,7 @@ const Navbar = () => {
             <FontAwesomeIcon
               icon={isOpen ? faTimes : faBars}
               size=""
-              className="ml-55 mt-5 text-white nav-links"
+              className="ml-55 mt-5 text-white nav-links "
               color="white"
             ></FontAwesomeIcon>
           </button>
