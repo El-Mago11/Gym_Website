@@ -7,14 +7,14 @@ import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
 const Trainers = () => {
   return (
-    <div id='Trainers' className='trainers-section  bg-purple-400'>
+    <div id='Trainers' className='trainers-section  bg-purple-400 mt-20'>
       <div>
       <div>
         <h1 className='section-heading'>Our Trainers</h1>
         <p className='section-text'>
         At Fitness Guru, we are proud to have a team of passionate and experienced fitness professionals dedicated to helping you achieve your health and fitness goals. Our trainers are not only certified but also committed to providing personalized coaching in a supportive and motivating environment.</p>  
         </div>
-        <ul className='flex flex-wrap gap-3.5 justify-center'>
+        <ul className='flex flex-wrap gap-3.5 justify-center '>
             <li>
                 <div className=''>
                     <img className='trainer-image ' src={assets.bodybuildingTrainer} alt="" />
@@ -24,26 +24,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                              <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className=' mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className=' mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className=' mt-3 trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -60,26 +60,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -97,26 +97,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -135,26 +135,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -173,26 +173,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -211,26 +211,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -248,26 +248,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -286,26 +286,26 @@ const Trainers = () => {
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -330,20 +330,20 @@ const Trainers = () => {
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faPhone}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>                                        
                                        
                                         <FontAwesomeIcon 
                                        icon={faInstagram}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
                                        <FontAwesomeIcon 
                                        icon={faTwitter}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
