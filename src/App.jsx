@@ -8,7 +8,7 @@ import Events from "./Components/Events"
 import Pricing from "./Components/Pricing"
 import Testimonials from "./Components/Testimonials"
 import ContactUs from "./Components/ContactUs"
-import { ToastContainer } from "react-toastify"
+import { ToastContainer,toast } from "react-toastify"
 import Footer from "./Components/Footer"
 
 
@@ -16,7 +16,7 @@ function App() {
   
 
   return (
-    <div id="full-section" className=" h-1000">
+    <div id="full-section" className=" h-2860">
      <ToastContainer/>
       <Navbar/>
       <About/>

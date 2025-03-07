@@ -1,9 +1,9 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-
+import { motion } from 'framer-motion';
 const About = () => {
   return (
-    <div id='About' className='about-section'>
+    <div id='About' className='about-section overflow-hidden'>
       <div className='about-section-main'>
         <div >
         
@@ -14,21 +14,34 @@ const About = () => {
          </div>
          <br /><br />
            <div className='about-section-container'>
-            <div className='mission-div'>
+            
+            <motion.div 
+               initial={{opacity:0, x:200}}
+               transition={{duration:2}}
+               whileInView={{opacity:1, x:0}}
+               viewport={{once:true, amount:0.3}}
+              className='mission-div '>
+
               <div>
               < img src={assets.mission} className='about-content-image' alt="Our Mission" />
               </div>
 
               <div className='about-content-text mission-text'>
-              <h2 className='about-content-heading font-bold'>Our Mission</h2>
-              <p className='about-content-paragraph'>
-             Our mission is to provide a welcoming and motivating environment where you can push yourself beyond your limits, achieve your goals, and become the best version of yourself. We're more than just a gym – we’re a community of fitness enthusiasts committed to growth, strength, and wellbeing.
-               </p>
+                 <h2 className='about-content-heading font-bold'>Our Mission</h2>
+                <p className='about-content-paragraph'>
+                 Our mission is to provide a welcoming and motivating environment where you can push yourself beyond your limits, achieve your goals, and become the best version of yourself. We're more than just a gym – we’re a community of fitness enthusiasts committed to growth, strength, and wellbeing.
+                 </p>
               </div>
            
-          </div>
+          </motion.div>
 
-         <div className='offer-div'>
+         <motion.div 
+            initial={{opacity:0, x:-200}}
+            transition={{duration:2}}
+            whileInView={{opacity:1, x:0}}
+            viewport={{once:true, amount:0.3}}
+         
+         className='offer-div '>
            <img src={assets.offer} className='about-content-image offer-image' alt="Our Mission" />          
            
            <div className='about-content-text offer-text '>
@@ -42,10 +55,15 @@ const About = () => {
 
             </p>
           </div>
-      </div>
+      </motion.div>
      
 
-      <div className='why-div'>
+      <motion.div
+       initial={{opacity:0, x:200}}
+       transition={{duration:2}}
+       whileInView={{opacity:1, x:0}}
+       viewport={{once:true, amount:0.3}}
+       className='why-div '>
         <img src={assets.why} className='about-content-image why-image' alt="Our Mission" />
           <div className='about-content-text why-text'>
             <h2 className='about-content-heading font-bold'>Why Choose Us? </h2>
@@ -56,7 +74,7 @@ const About = () => {
             <p className=' mt-2'> <span className='font-bold' ></span> Join us today and be part of a fitness journey that will change your life.  </p> 
          </p>
           </div>
-      </div>
+      </motion.div>
       
            
       </div>

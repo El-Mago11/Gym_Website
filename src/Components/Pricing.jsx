@@ -2,10 +2,10 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div id='Pricing' className='pricing-div relative bottom-138 h-250 '>
+    <div id='Pricing' className='pricing-div relative bottom-138 h-300 '>
       <div>
       <div>
-        <h1 className='section-heading'>Our Membership Plan</h1>
+        <h1 className='section-heading price-h1'>Our Membership Plan</h1>
         <p className='section-text'>
         We offer flexible membership options to suit your goals and lifestyle.
        </p>  
@@ -26,7 +26,7 @@ const Pricing = () => {
 
             </div>
 
-            <div className='price-section   Basic border-1 '>
+            <div className='price-section   Pro border-1 '>
                <h3 className='text-2xl price-group font-medium text-center'>PRO</h3>
                <h2 className='text-3xl ml-20 font-medium price'>GH₵ 500/Month</h2>
                <ul className='price-list mt-5 '>
@@ -45,7 +45,7 @@ const Pricing = () => {
 
             </div>
 
-            <div className='price-section   Basic border-1 '>
+            <div className='price-section   Premium border-1 '>
                <h3 className='text-2xl font-medium text-center'>PREMIUM</h3>
                <h2 className='text-3xl ml-20 font-medium price'>GH₵ 750/Month</h2>
                <ul className='price-list mt-5 '>

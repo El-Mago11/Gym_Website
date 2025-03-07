@@ -21,7 +21,8 @@
   --soft-pink-colour: #f0e5e6;
   --white-colour: #FFFF;
   --orange-colour:  #ff5722;
-  --blue-colour:   rgb(21, 222, 222);  
+  --blue-colour:   rgb(21, 222, 222); 
+  --gray-colour: #B0BEC5; 
 
 
 
@@ -109,7 +110,7 @@ ul li:hover .dropdown-menu {
   font-size: 40px;
   margin-top: -500px;
   text-align: left;
-  color: white;
+  color: var(--white-colour);
   top: 200px;
   position: relative;
   top: -300px;
@@ -117,10 +118,10 @@ ul li:hover .dropdown-menu {
 }
 .slider-text {
   font-size: 20px;
-  color: white;
+  color: var(--white-colour);
 }
 .slider-span {
-  color: rgb(21, 222, 222);
+  color: var(--blue-colour);
 }
 .heading1 {
   position: relative;
@@ -159,10 +160,10 @@ ul li:hover .dropdown-menu {
 }
 /* buttons */
 .btns {
-  border: 1px solid #a91cff;
-  background-color: #a91cff;
+  border: 1px solid var(--purple-colour);
+  background-color: var(--purple-colour);
   padding: 7px;
-  color: #ffff;
+  color: var(--white-colour);
   border-radius: 10px;
   margin-right: 10px;
   font-size: 18px;
@@ -186,10 +187,10 @@ ul li:hover .dropdown-menu {
   text-align: justify;
 }
 .btns:hover {
-  background-color: rgb(21, 222, 222);
+  background-color: var(--blue-colour);
   transition: 0.5s ease;
   border: none;
-  color: #181818;
+  color: var(--black-colour);
 }
 
 /*ABOUT  */
@@ -198,7 +199,7 @@ ul li:hover .dropdown-menu {
   font-size: 38px;
   text-align: center;
   text-transform: uppercase;
-  color: #181818;
+  color: var(--black-colour);
   padding-top: 20px;
 }
 .section-text {
@@ -221,16 +222,18 @@ ul li:hover .dropdown-menu {
   width: 500px;
 }
 .about-content-heading {
-  color: rgb(21, 222, 222);
+  color: var(--blue-colour);
   font-size: 30px;
   text-align: center;
 }
 .about-content-paragraph {
-  color: #181818;
+  color: var(--black-colour);
   text-align: justify;
   font-size: 21px;
   margin-top: 10px;
 }
+
+
 .offer-div {
   position: relative;
   top: -20px;
@@ -286,10 +289,17 @@ ul li:hover .dropdown-menu {
 .classes-image:hover {
   transform: scale(1.1);
 }
+/* Classes */
+.classes-div{
+  background-color: var(--blue-colour);
+}
+
 /* Class Schedule */
 .schedule {
+  background-color: var(--white-colour);
   position: relative;
   top: -550px;
+  height: 990px;
 }
 table {
   justify-content: center;
@@ -340,15 +350,24 @@ th {
   margin-top: 10px;
   width: 8%;
 }
-.icons:hover {
-  color: red;
-}
+
 /* Event */
+.events-div{
+  background-color: var(--white-colour);
+  color: var(--black-colour);
+}
 .event-h1 {
-  color: #ffff;
+  color: var(--black-colour);
 }
 
 /* Pricing */
+.price-h1{
+  color: var(--white-colour);
+}
+.pricing-div{
+  background-color: var(--black-colour);
+  color: var(--white-colour);
+}
 .price-list {
   list-style-type: disc;
   margin-left: 30px;
@@ -359,7 +378,15 @@ th {
   width: 400px;
   height: 380px;
 }
-
+.Basic{
+  background-color: #26a8e9;
+}
+.Pro{
+  background-color: #26a8e9;
+}
+.Premium{
+  background-color: #26a8e9;
+}
 /* Testimonial section */
 .testimonial-section {
   padding: 50px 0 100px;
@@ -412,8 +439,11 @@ th {
 .footer-section {
   background-color: #181818;
   color: #ffff;
-  margin-bottom: 0;
-  margin-top: auto;
+  /* margin-bottom: 0;
+  margin-top: auto; */
+}
+.footer-images{
+  font-size: 30px;
 }
 /* Animations */
 /* Navbar Animation */
@@ -452,43 +482,18 @@ th {
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
 }
-.section-text {
+/* .section-text {
   animation: section-titles-animation linear;
   animation-timeline: view();
   animation-range: entry 50% cover 50%;
-  animation-duration: 2s;
+  animation-duration: 2s; */
   /* animation-delay: 2s; */
-}
+/* } */
+
 /* About Section */
 /*  Mission and why divs*/
-@keyframes mission {
-  from {
-    transform: translateX(-500px);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-.mission-div,
-.why-div {
-  animation-name: mission;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
-/* What we offer div */
-@keyframes offer {
-  from {
-    transform: translateX(-500px);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-.offer-div {
-  animation-name: offer;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-}
+
+
 
 /* Responsiveness */
 @media screen and (max-width: 900px) {

@@ -3,7 +3,7 @@ import { assets } from '../assets/assets'
 
 const Events = () => {
   return (
-    <div id='Events' className='bg-black text-white relative bottom-138 '>
+    <div id='Events' className='events-div bg-black text-white relative bottom-138 '>
        <div className=''>
         <h1 className='section-heading event-h1'>Upcoming Events</h1>
         <p className='section-text'>

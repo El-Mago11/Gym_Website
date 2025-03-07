@@ -1,9 +1,10 @@
 import React from 'react'
 import { assets, colours } from '../assets/assets'
+import { motion } from 'framer-motion';
 
 const Classes = () => {
   return (
-    <div  className='classes-div ' style={{backgroundColor:colours.aqua}}>
+    <div  className='classes-div ' >
       <div id='Classes'>
       <h1 className='section-heading'>Our Classes</h1>
       <p className='section-text'>
@@ -13,9 +14,16 @@ const Classes = () => {
         <div className='flex flex-col class-image-container'>
         <br /><br />
            <ul className='class-list flex flex-wrap gap-5 overflow-hidden'>
-           
-            <li className=''>
-            <img className='classes-image' src={assets.bodybuilding} alt="" />
+           <motion.div 
+             initial={{opacity:0, y:100}}
+             transition={{duration:1}}
+             whileInView={{opacity:1, y:0}}
+             viewport={{once:true, amount:0.3}}
+            className='class-list flex flex-wrap gap-5 overflow-hidden'
+           >
+
+           <li className=''>
+            <img className='classes-image ml-1' src={assets.bodybuilding} alt="" />
                 <div className='class-text-div'>
                          <p className='class-title'>BODY BUILDING</p>
                 </div>
@@ -34,8 +42,17 @@ const Classes = () => {
                          <p className='class-title'>CROSS-FIT</p>
                 </div>
             </li>
+           </motion.div>
+         
 
-            <li>
+           <motion.div
+           initial={{opacity:0, y:100}}
+           transition={{duration:1}}
+           whileInView={{opacity:1, y:0}}
+           viewport={{once:true, amount:0.3}}
+          className='class-list flex flex-wrap gap-5 overflow-hidden'
+           >
+           <li>
             <img className='classes-image' src={assets.yoga} alt="" />
                 <div className='class-text-div'>
                          <p className='class-title'>YOGA</p>
@@ -55,6 +72,7 @@ const Classes = () => {
                          <p className='class-title'>CARDIO</p>
                 </div>
             </li>
+           </motion.div>
            </ul>
 
             

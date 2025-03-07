@@ -2,13 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { falocationdot } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot,faEnvelope,faPhone, faClock,  } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
- 
-import { ToastContainer, toast } from 'react-toastify'
-
-
+import { ToastContainer, toast } from 'react-toastify';
 const ContactUs = () => {
   const [result, setResult] = React.useState("");
 
@@ -27,7 +24,7 @@ const ContactUs = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("");
+      setResult(" ");
       toast.success("Form Submitted Successfully")
       event.target.reset();
     } else {
@@ -38,45 +35,55 @@ const ContactUs = () => {
   };
 
   return (
-    <div className=' relative bottom-100 contact-section'>
+    <div className=' relative bottom-140 contact-section '>
       <h1 className='section-heading'>Contact US</h1>
       <div className='flex gap-15 relative mt-20'>
-         <div className='mt-20 w-140 '>
-         <ul className='flex flex-col gap-4 ml-15 section-text contact-details'>
-        <li>
-        <FontAwesomeIcon className='icons' icon={faLocationDot} size="2x" color="black" />
-         <span className='ml-5'>Ayeduase, Kumasi</span>
-          </li>
-
-          <li>
-      <FontAwesomeIcon className='icons' icon={faEnvelope}  size="2x" />
+         <div className='mt-0 w-140 '>
+         <ul className='flex flex-col gap-4 ml-15  contact-details'>
+         <li className='nav-links'>
+      <FontAwesomeIcon className='icons footer-images' icon={faLocationDot}  size="2x" />
          <span className='ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
         </li>
 
-        <li>
-       <FontAwesomeIcon className='icons' icon={faPhone}  size="2x"/>
+          <li className='nav-links'>
+      <FontAwesomeIcon className='icons footer-images' icon={faEnvelope}  size="2x" />
+         <span className='ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
+        </li>
+
+        <li className='nav-links'>
+       <FontAwesomeIcon className='icons footer-images' icon={faPhone}  size="2x"/>
        <span className='ml-5'><a href="tel:+233534236387">+233 53 423 6387</a></span>
     </li>
 
-    <li>
-    <FontAwesomeIcon className='icons' icon={faClock}  size="2x"/>
+    <li className='nav-links'>
+    <FontAwesomeIcon className='icons footer-images' icon={faClock}  size="2x"/>
     <span className='ml-5'>Monday - Saturday: 6:00AM to 8:30 PM</span>
     </li>
 
-    <li>
-    <FontAwesomeIcon className='icons' icon={faClock}  size="2x"/>
+    <li className='nav-links'>
+    <FontAwesomeIcon className='icons footer-images' icon={faClock}  size="2x"/>
     <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
     </li>
 
-    <li>
-    <FontAwesomeIcon  className='icons'icon={faFacebook} size="2x"/>
-    <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
+    <li className='nav-links'>
+    <FontAwesomeIcon  className='icons footer-images'icon={faFacebook} size="2x"/>
+    <span className='ml-5'>mojo1fitness</span>
     </li>
 
-    <li>
-    <FontAwesomeIcon className='icons' icon={faInstagram} size="2x"/>
-    <span className='ml-5'>Sunday: 2:00PM to 8:30 PM</span>
+    <li className='nav-links'>
+    <FontAwesomeIcon className='icons footer-images' icon={faInstagram} size="2x"/>
+    <span className='ml-5'>mojo1fitness</span>
     </li>
+
+    <li className='nav-links'>
+      <FontAwesomeIcon className='icons footer-images' icon={faTwitter}  size="2x" />
+         <span className='ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitness</a></span>
+        </li>
+
+     <li className='nav-links'>
+      <FontAwesomeIcon className='icons footer-images' icon={faSnapchat}  size="2x" />
+         <span className='ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitness</a></span>
+        </li>
   </ul>
          </div>
 <div className='map-responsive'>
@@ -94,19 +101,30 @@ title='Responsive Google Map'
       <div>
 
       </div>
-          <form onSubmit={onSubmit} action="" className='text-center section-text form-sect'>
-            <label htmlFor="Name" className='ml-9 mr-4'>Name:</label>
-            <input type="text" name='Name' className='border rounded h-8  px-4 mt-2 py-3'  placeholder=' Enter your name ' required />
-          
-            <label htmlFor="Name" className='ml-9 mr-4'>Email:</label>
-            <input type="email" name='email' className='border rounded h-8  px-4 mt-2 py-3'  placeholder=' Enter your email ' required />
-            <br />
-            <label htmlFor="Name" className='ml-9 mr-4'>Message:</label>
-            <textarea  name="" className='border w-125 h-50 mt-5 resize-none'  id="" required></textarea>
-            <br />
-            <button className='btns mt-5 mb-20'>{result ? result : "Send Message"}</button>
-          </form>
      
+      <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-0' >
+            <div className='flex flex-wrap'>
+                <div className='w-full md:w-1/2 text-left'>
+                    Your Name
+                <input className='w-full border border-gray-300 rounded py-3
+                px-4 mt-2' type="text" name='Name' placeholder='Your Name ' required/>
+                </div>
+                <div className='w-full md:w-1/2 text-left md:pl-4'>
+                    Your Email
+                <input className='w-full border border-gray-300 rounded py-3
+                px-4 mt-2' type="email" name='Email' placeholder=' Your Email' required/>
+                </div>
+            </div>
+            <div className='my-6 text-left'>
+                Message 
+                <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' name="Message" placeholder='Message' required>
+
+                </textarea>
+            </div>
+            <button className='btns text-white py-2 px-12 mb-10 rounded '>
+                {result? result : "Send Message"}</button>
+        </form>
+        <ToastContainer />
                  </div>
   )
 }

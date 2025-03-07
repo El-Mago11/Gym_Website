@@ -1,86 +1,123 @@
 import React from 'react'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { assets } from '../assets/assets';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className='footer-section relative bottom-100'>
-      <div className='flex flex-row gap-15'>
-      <div className='ml-8'>
-    <h3 className='font-medium text-3xl mt-10'>About Us</h3>
-    <ul className='section-text'>
-        <li className='mt-4'>Ayeduase, Kumasi</li>
-        <li className='mt-2'>Monday - Saturday: 6:00AM to 8:30 PM</li>
-        <li className='mt-2'>Sunday: 2:00PM to 8:30 PM</li>
-    </ul>
-   </div>
+    <div className='footer-section relative bottom-100 h-90'>
+      <div className='flex flex-row gap-20'>
+    
+<div className='mt-10 ml-10'>
+  <img src={assets.logo} width={120} alt="" />
+</div>
+<div>
+  <h3 className='text-center font-bold mt-10 text-2xl'>Company</h3>
+  <div className='flex gap-5'>
+    <div className=''>
+      <ul className='mt-2 '>
+        <li className='nav-links'>
+          <a href="#Home">Home</a>
+        </li>
+        <li  className='nav-links'>
+          <a href="#About">About</a>
+        </li>
+        <li className='nav-links'>
+          <a href="#Classes">Classes</a>
+        </li>
+        <li className='nav-links'>
+          <a href="#Class Schedule">Class Schedule</a>
+        </li>
+       
+        <li className='nav-links'>
+          <a href="#Trainers">Trainers</a>
+        </li>
+      </ul>
+    </div>
 
-   <div>
-  <ul className='ml-8 mt-10 section-text'>
-    <h3 className='font-medium text-3xl'>Nav Links</h3>
-    <li className='li-style nav-links'>
-        <a href="Home">Home</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="About">About</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Classes">Classes</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Class Schedule">Class Schedule</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Trainers">Trainers</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Events">Events</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Pricing">Pricing</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Testimonials">Testimonials</a>
-    </li>
-    <li className='li-style nav-links'>
-        <a href="Contact">Contact</a>
-    </li>
-   
-   </ul>
+    <div>
+      <ul className='mt-2 '>
+        <li className='nav-links'>
+          <a href="#Events">Events</a>
+        </li>
+        <li className='nav-links'>
+          <a href="#Pricing">Pricing</a>
+        </li>
+        <li className='nav-links'>
+          <a href="#Testimonials">Testimonials</a>
+        </li>
+        <li className='nav-links'>
+          <a href="#Contact">Contact</a>
+        </li>
+        
+      </ul>
+    </div>
   </div>
+    
+</div>
+<div className='gap-6 mt-10'>
 
-  <div className='ml-8'>
-    <h3 className='font-medium text-3xl mt-10'>Our Social Media</h3>
-    <ul className='flex flex-wrap'>
-        <li> 
-            <img src={assets.fb} width={50} alt="" />
-              </li>
-              <li> 
-            <img src={assets.ig} width={50} alt="" />
-              </li>
-              
-              <li> 
-            <img src={assets.x} width={50} alt="" />
-              </li>
-              <li> 
-            <img src={assets.call} width={50} alt="" />
-              </li>
-    </ul>
+      <h3 className='text-center font-bold text-2xl' >Follow Us</h3>
+      <ul className='flex gap-6 mt-7'>
+        <li className=''>
+           <FontAwesomeIcon 
+           icon={faFacebook}
+           className='nav-links footer-images'
+           size='5x'
+           
+           >
+               
+           </FontAwesomeIcon>
+        </li>
+        <li>
+           <FontAwesomeIcon 
+           icon={faInstagram}
+           className='nav-links footer-images'
+           >
+               
+           </FontAwesomeIcon>
+        </li>
+        <li>
+           <FontAwesomeIcon 
+           icon={faTwitter}
+           className='nav-links footer-images'
+           >
+               
+           </FontAwesomeIcon>
+
+        </li>
+        <li>
+           <FontAwesomeIcon 
+           icon={faSnapchat}
+           className='nav-links footer-images'
+           >
+               
+           </FontAwesomeIcon>
+           
+        </li>
+      </ul>
+    </div>
+
+
+  
+   <div className='w-full md:w-1/3 mt-10 ml-10' >
+          <h3 className='text-white text-lg font-bold mb-4'>Subscribe to our newsletter</h3>
+          <p className='text-gray-400 mb-4 max-w-80'>The latest news, articles, and resources, sent
+            to your inbox weekly.
+          </p>
+
+          <div className='flex gap-2'>
+            <input type="email" placeholder='Enter your email' className='p-2 rounded bg-white text-gray-400 border border-gray-700
+            focus:outline-none w-full md:w-auto' />
+            <button className='py-2 px-4 rounded btns'>Subscribe</button>
+          </div>
    </div>
-       <div className='ml-6'>
-       <h3 className='font-medium text-3xl mt-10'>Subscribe to our Newsletter</h3>
-<input type="email" className='border rounded h-10  px-4 mt-2 py-3'/>   
-<span><button className='btns ml-3'>
-    Subscribe</button></span> 
-       </div>
-   
   </div>
-  <div className='border-1 w-270 mt-5 ml-20'>
+  <div className='border-1 w-270 mt-9 ml-20'>
   </div>
-  <div className='text-center mt-5'>
-    <p>COPYRIGHT @ 2024 - DESIGNED AND DEVELOPED BY EL MAGO</p>
+  <div className='text-center mt-5 m '>
+    <p className=''>COPYRIGHT @ 2024 - DESIGNED AND DEVELOPED BY EL MAGO</p>
   </div>
     </div>
   )
