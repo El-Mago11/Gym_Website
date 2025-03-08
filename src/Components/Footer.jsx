@@ -102,19 +102,19 @@ const Footer = () => {
             <input
               type="email"
               placeholder='Enter your email'
-              className='p-2 rounded bg-white text-gray-400 border border-gray-700 focus:outline-none w-full sm:w-auto'
+              className='p-2 newsletter-input rounded bg-white text-gray-400 border border-gray-700 focus:outline-none w-full sm:w-auto'
             />
-            <button className='py-2 px-4 rounded btns'>Subscribe</button>
+            <button className='newsletter-input py-2 px-4 rounded btns'>Subscribe</button>
           </div>
         </div>
       </div>
 
       {/* Footer Divider */}
-      <div className='border-t w-290 mx-auto mt-9'></div> {/* Border adjusted to not be full width */}
+      <div className='border-t divider w-290 mx-auto mt-9'></div> {/* Border adjusted to not be full width */}
 
       {/* Copyright Section */}
       <div className='text-center mt-5'>
-        <p className='text-gray-400'>COPYRIGHT @ 2025 - DESIGNED AND DEVELOPED BY EL MAGO</p>
+        <p className='text-gray-400 copyright-text'>COPYRIGHT @ 2025 - DESIGNED AND DEVELOPED BY EL MAGO</p>
       </div>
     </div>
   )

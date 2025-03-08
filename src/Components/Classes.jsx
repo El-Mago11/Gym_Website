@@ -8,7 +8,7 @@ const Classes = () => {
       <div id='Classes'>
       <h1 className='section-heading'>Our Classes</h1>
       <p className='section-text'>
-      At FitZone Gym, we offer a wide variety of classes to help you stay motivated, push your limits, and achieve your fitness goals. Whether you're looking to build strength, improve flexibility, or boost your endurance, we’ve got a class for you!      </p>  
+      At Fitness Guru Gym, we offer a wide variety of classes to help you stay motivated, push your limits, and achieve your fitness goals. Whether you're looking to build strength, improve flexibility, or boost your endurance, we’ve got a class for you!      </p>  
       </div>
         <h1 className='section-heading'>Classes we Offer</h1>
         <div className='flex flex-col class-image-container'>

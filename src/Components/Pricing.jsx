@@ -24,7 +24,7 @@ const Pricing = () => {
               <li>Access to 50% of gym equipment</li>
               <li>Access to general events</li>
             </ul>
-            <button className='btns basic-btn h-12 w-full sm:w-35 relative top-20 sm:left-30'>Register Now</button>
+            <button className='btns pricing-btn basic-btn h-12 w-full sm:w-35 relative top-20 sm:left-30'>Register Now</button>
           </div>
 
           {/* Pro Plan Section */}
@@ -40,7 +40,7 @@ const Pricing = () => {
               <li>Access to 70% of gym equipment</li>
               <li>Access to selective exclusive events</li>
             </ul>
-            <button className='btns pro-btn basic-btn h-12 w-full sm:w-35 relative top-13 sm:left-30'>Register Now</button>
+            <button className='btns pricing-btn pro-btn basic-btn h-12 w-full sm:w-35 relative top-13 sm:left-30'>Register Now</button>
           </div>
 
           {/* Premium Plan Section */}
@@ -57,7 +57,7 @@ const Pricing = () => {
               <li>Personal Trainer</li>
               <li>1-on-1 fitness consultation per month</li>
             </ul>
-            <button className='btns basic-btn pre-btn h-12 w-full sm:w-35 relative top-7 sm:left-30'>Register Now</button>
+            <button className='btns pricing-btn basic-btn pre-btn h-12 w-full sm:w-35 relative top-7 sm:left-30'>Register Now</button>
           </div>
         </div>
 

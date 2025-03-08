@@ -33,7 +33,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className='relative bottom-140 contact-section'>
+    <div id='Contact' className='relative bottom-140 contact-section'>
       <h1 className='section-heading text-center text-3xl sm:text-4xl md:text-5xl'>Contact US</h1>
       <div className='flex flex-col sm:flex-row gap-8 mt-20'>
         {/* Contact details */}
@@ -41,12 +41,12 @@ const ContactUs = () => {
           <ul className='flex flex-col gap-4 ml-0 sm:ml-10 contact-details'>
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faLocationDot} size="2x" />
-              <span className='ml-3 sm:ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
+              <span className='ml-3 sm:ml-5'><a href="mailto:elmago6225@gmail.com">fitnessguru@gmail.com</a></span>
             </li>
 
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faEnvelope} size="2x" />
-              <span className='ml-3 sm:ml-5'><a href="mailto:elmago6225@gmail.com">mojo1fitnessgym@gmail.com</a></span>
+              <span className='ml-3 sm:ml-5'><a href="mailto:elmago6225@gmail.com">fitnessguru@gmail.com</a></span>
             </li>
 
             <li className='nav-links'>
@@ -66,22 +66,22 @@ const ContactUs = () => {
 
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faFacebook} size="2x" />
-              <span className='ml-3 sm:ml-5'>mojo1fitness</span>
+              <span className='ml-3 sm:ml-5'>fitnessguru</span>
             </li>
 
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faInstagram} size="2x" />
-              <span className='ml-3 sm:ml-5'>mojo1fitness</span>
+              <span className='ml-3 sm:ml-5'>fitnessguru</span>
             </li>
 
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faTwitter} size="2x" />
-              <span className='ml-3 sm:ml-5'>mojo1fitness</span>
+              <span className='ml-3 sm:ml-5'>fitnessguru</span>
             </li>
 
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faSnapchat} size="2x" />
-              <span className='ml-3 sm:ml-5'>mojo1fitness</span>
+              <span className='ml-3 sm:ml-5'>fitnessguru</span>
             </li>
           </ul>
         </div>
@@ -106,18 +106,18 @@ const ContactUs = () => {
       {/* Contact Form */}
       <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-15 text-center'>
         <div className='flex flex-wrap'>
-          <div className='w-full md:w-1/2 text-left'>
+          <div className='w-full input-name md:w-1/2 text-left'>
             Your Name
-            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name ' required />
+            <input className='w-full input-field border border-gray-300 rounded py-3 px-4 mt-2' type="text" name='Name' placeholder='Your Name ' required />
           </div>
-          <div className='w-full md:w-1/2 text-left md:pl-4'>
+          <div className='w-full input-name md:w-1/2 text-left md:pl-4'>
             Your Email
-            <input className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="email" name='Email' placeholder=' Your Email' required />
+            <input className='w-full input-field border border-gray-300 rounded py-3 px-4 mt-2' type="email" name='Email' placeholder=' Your Email' required />
           </div>
         </div>
-        <div className='my-6 text-left'>
+        <div className='my-6 input-name text-left'>
           Message
-          <textarea className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' name="Message" placeholder='Message' required></textarea>
+          <textarea className='w-full input-field textarea border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none' name="Message" placeholder='Message' required></textarea>
         </div>
         <button className='btns text-white py-2 px-12 mb-10 rounded'>
           {result ? result : "Send Message"}

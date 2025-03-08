@@ -12,7 +12,9 @@ import crossfit from './crossfitt.jpeg'
 import yoga from './yoga.webp'
 import martialArts from './martial-arts.jpg'
 import cardio from './cardio.jpg'
-import cardioTrainer from './cardiotrainer.avif'
+import personalTrainer3 from './cardiotrainer.avif'
+import cardioTrainer from './cardio trainer.jpg'
+
 import bodybuildingTrainer from './bodybuilding-trainer.jpg'
 import martialArtsTrainer from './martialarts trainer.jpg'
 import yogaTrainer from './yoga trainer.avif'
@@ -31,6 +33,9 @@ import testimonial2 from './testimonial2.avif'
 import testimonial3 from './testimonial3.avif'
 import testimonial4 from './testimonial4.avif'
 import testimonial5 from './testimonial5.avif'
+import weightLifting from './weightlifting.jpg'
+import football from './football.jpg'
+
 
 
 
@@ -69,6 +74,7 @@ export const assets = {
     fitnessTrainer,
     personalTrainer1,
     personalTrainer2,
+    personalTrainer3,
     x,
     fb,
     ig,
@@ -80,6 +86,8 @@ export const assets = {
     testimonial3,
     testimonial4,
     testimonial5,
+    weightLifting,
+    football,
 
 
 

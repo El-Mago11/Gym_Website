@@ -11,13 +11,13 @@ const About = () => {
             ABOUT US
           </h1>
           <p className='section-text mt-4 text-lg sm:text-xl text-center'>
-            At FitZone Gym, we believe in empowering individuals to lead healthier, more active lives. Whether you're just beginning your fitness journey or you're an experienced athlete, our goal is to help you reach your full potential through personalized training programs, state-of-the-art equipment, and a supportive community.
+            At Fitness Guru, we believe in empowering individuals to lead healthier, more active lives. Whether you're just beginning your fitness journey or you're an experienced athlete, our goal is to help you reach your full potential through personalized training programs, state-of-the-art equipment, and a supportive community.
           </p>
         </div>
         <br /><br />
         
         {/* About Section Container */}
-        <div className='about-section-container flex flex-col gap-10 md:gap-16'>
+        <div className='about-section-container flex flex-col gap-10 md:gap-16 '>
           
           {/* Mission Section */}
           <motion.div 
@@ -87,7 +87,7 @@ const About = () => {
             </div>
 
             <div className='w-full md:w-1/2 ml-9'>
-              <img src={assets.why} className='about-content-image w-full' alt="Why Choose Us" />
+              <img src={assets.why} className='about-content-image w-full why-image' alt="Why Choose Us" />
             </div>
 
           </motion.div>

@@ -4,6 +4,8 @@ import { faFacebook, faSnapchat, faTwitter } from '@fortawesome/free-brands-svg-
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { motion } from 'framer-motion';
+
 
 const Trainers = () => {
   return (
@@ -15,8 +17,14 @@ const Trainers = () => {
         At Fitness Guru, we are proud to have a team of passionate and experienced fitness professionals dedicated to helping you achieve your health and fitness goals. Our trainers are not only certified but also committed to providing personalized coaching in a supportive and motivating environment.</p>  
         </div>
         <ul className='flex flex-wrap gap-3.5 justify-center '>
+            <motion.div 
+            initial={{ opacity: 0, x: 200 }} 
+            transition={{ duration: 3 }} 
+            whileInView={{ opacity: 1, x: 0 }} 
+            viewport={{ once: true, amount: 0.3 }} 
+            className='flex'>
             <li>
-                <div className=''>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.bodybuildingTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
                         <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
@@ -52,10 +60,10 @@ const Trainers = () => {
                 </div>
             </li>
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.fitnessTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Sub Zero</h2>
                         <p className='trainer-type'>Fitness Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -89,10 +97,10 @@ const Trainers = () => {
                 </div>
             </li>
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.crossfitTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Mandy Rose</h2>
                         <p className='trainer-type'>CrossFit Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -125,9 +133,17 @@ const Trainers = () => {
                     </div>
                 </div>         
             </li>
+            </motion.div>
 
+            <motion.div 
+             initial={{ opacity: 0, x: -200 }} 
+             transition={{ duration: 3 }} 
+             whileInView={{ opacity: 1, x: 0 }} 
+             viewport={{ once: true, amount: 0.3 }} 
+             className='flex'
+            >
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.yogaTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
                         <h2 className='trainer-name font-bold'>Jane Foster</h2>
@@ -165,10 +181,10 @@ const Trainers = () => {
             </li>
 
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.martialArtsTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Ronda Rousey</h2>
                         <p className='trainer-type'>Martial Arts Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -203,10 +219,10 @@ const Trainers = () => {
             </li>
 
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.cardioTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Bruce Wayne</h2>
                         <p className='trainer-type'>Cardio Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -239,11 +255,20 @@ const Trainers = () => {
                 </div>
             </li>
 
+            </motion.div>
+
+            <motion.div
+                initial={{ opacity: 0, x: 200 }} 
+                transition={{ duration: 3 }} 
+                whileInView={{ opacity: 1, x: 0 }} 
+                viewport={{ once: true, amount: 0.3 }} 
+                className='flex'
+            >
             <li>
-                <div>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.personalTrainer1} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Dwanye Newman</h2>
                         <p className='trainer-type'>Personal Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -278,10 +303,10 @@ const Trainers = () => {
             </li>
 
             <li>
-                <div className=''>
+                <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.personalTrainer2} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Natasha</h2>
                         <p className='trainer-type'>Personal Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
@@ -316,15 +341,15 @@ const Trainers = () => {
             </li>
 
             <li>
-                <div className=''>
-                    <img className='trainer-image ' src={assets.bodybuildingTrainer} alt="" />
+                <div className='trainer-details'>
+                    <img className='trainer-image ' src={assets.personalTrainer3} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
-                        <h2 className='trainer-name font-bold'>Shaka Zulu</h2>
+                        <h2 className='trainer-name font-bold'>Alkaline</h2>
                         <p className='trainer-type'>Bodybuiliding Trainer</p>
                         <div className='border-t border-gray-400 flex flex-row gap-5 justify-center mt-3 '>
                         <FontAwesomeIcon 
                                        icon={faFacebook}
-                                       className='nav-links footer-images mt-3'
+                                       className='  mt-3  trainer-links'
                                        >
                                            
                                        </FontAwesomeIcon>
@@ -352,6 +377,7 @@ const Trainers = () => {
                     </div>
                 </div>
             </li>
+            </motion.div>
         </ul>
       </div>
     </div>

@@ -623,8 +623,131 @@ th {
   position: relative;
   top: 500px;
 } */
+/* Mobile Screens */
+@media screen and (max-width:480px){
+  body{
+    overflow-x: hidden;
+  }
+  .navbar :where(#menu-open-button) {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 100px;
+  }
 
+  .slider-heading{
+    text-transform: uppercase;
+    width: 350px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .slider-text{
+    margin-top: 5px;
+    font-size: 20px;
+   
+    width: 270px;
+  }
+  .text1{
+   
+    width: 270px;
+  }
+  .btns1{
+    margin-top: 10px;
+  }
+  /* About */
+  .about-section{
+    height: 3900px;
+  }
+  .about-content-heading{
+    width: 200px;
+   
+  }
+  .mission-text, .offer-text, .why-text{
+    position: relative;
+    width: 350px;
+    text-align: center;
+  }
+  .about-content-image{
+    padding-top: 30px;
+    border-radius: 5px;
+    width: 310px;
+    object-fit: contain;
+  }
+  .why-image{
 
+  }
+.offer-div{
+display: flex;
+flex-direction: column-reverse;
+}
+.offer-text{
+  margin-left: -10px;
+}
+/* Classes */
+.classes-image{
+  width: 300px;
+  height: 200px;
+  margin-left: 20px;
+}
+.class-text-div {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: -30px;
+  left: 75px;
+  background-color: #ffff;
+}
+.class-title{
+  padding-top: 10px;
+  font-size: 20px;
+}
+/* Class Schedule */
+.schedule{
+height: 1400px;
+}
+/* Trainers */
+.trainer-details{
+  margin-left: -30px;
+}
+/* Events */
+.event-date{
+  position: relative;
+  top: 50px;
+}
+.price-section{
+  width: 300px;
+}
+.pricing-btn{
+  margin-top: -20px;
+  margin-left: 60px;
+  width: 150px;
+}
+
+/* Contact */
+.input-field{
+  margin-left: 25px;
+  width: 250px;
+}
+.input-name{
+  margin-left: 10px;
+}
+.textarea {
+  margin-left: 35px;
+}
+
+/* Footer */
+.newsletter-input{
+  width: 300px;
+}
+.divider{
+  width: 420px;
+}
+.copyright-text{
+margin-left: 20px;
+  width: 390px;
+}
+}
    
 
   
