@@ -18,7 +18,7 @@ const Navbar = () => {
   console.log("isOpen", isOpen);
 
   return (
-    <div className="">
+    <div className="overflow-hidden">
       <div
         className="flex flex-row navbar"
         style={{ backgroundColor: colours.black }}

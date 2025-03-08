@@ -33,6 +33,7 @@
 
 #full-section {
   scroll-behavior: smooth;
+  
 }
 body {
   overflow-x: hidden;
@@ -44,6 +45,7 @@ body {
   top: 0;
   width: 100%;
   z-index: 9999;
+  box-shadow: 0 4px 9px var(--soft-pink-colour);
 }
 .nav-menu{
  display: flex; 
@@ -707,13 +709,19 @@ flex-direction: column-reverse;
 height: 1400px;
 }
 /* Trainers */
-.trainer-details{
+.triplet-trainer{
   margin-left: -30px;
+  display: flex;
+  flex-direction: column;
 }
 /* Events */
 .event-date{
   position: relative;
   top: 50px;
+}
+.event1{
+  position: relative;
+  top: 20px; 
 }
 .price-section{
   width: 300px;
@@ -735,6 +743,9 @@ height: 1400px;
 .textarea {
   margin-left: 35px;
 }
+.contact-about{
+  margin-left: 10px;
+}
 
 /* Footer */
 .newsletter-input{
@@ -746,6 +757,9 @@ height: 1400px;
 .copyright-text{
 margin-left: 20px;
   width: 390px;
+}
+.appended-nav-links{
+  margin-top: -6px;
 }
 }
    

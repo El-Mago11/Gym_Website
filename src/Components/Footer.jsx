@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
   return (
-    <div className='footer-section relative bottom-100 h-auto sm:h-90 py-10'>
+    <div className='footer-section relative bottom-100 h-auto sm:h-90 py-10 overflow-hidden'>
       <div className='flex flex-col sm:flex-row gap-20 px-4'>
         {/* Logo Section */}
         <div className='mt-10 ml-10 flex justify-center sm:justify-start'>
@@ -37,7 +37,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div className='sm:w-1/2'>
+            <div className='sm:w-1/2 appended-nav-links'>
               <ul className='mt-2'>
                 <li className='nav-links'>
                   <a href="#Events">Events</a>

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Classes = () => {
   return (
-    <div  className='classes-div ' >
+    <div  className='classes-div overflow-hidden' >
       <div id='Classes'>
       <h1 className='section-heading'>Our Classes</h1>
       <p className='section-text'>

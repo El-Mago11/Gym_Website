@@ -33,11 +33,11 @@ const ContactUs = () => {
   };
 
   return (
-    <div id='Contact' className='relative bottom-140 contact-section'>
+    <div id='Contact overflow-hidden' className='relative bottom-140 contact-section'>
       <h1 className='section-heading text-center text-3xl sm:text-4xl md:text-5xl'>Contact US</h1>
       <div className='flex flex-col sm:flex-row gap-8 mt-20'>
         {/* Contact details */}
-        <div className='w-full sm:w-1/2'>
+        <div className='w-full sm:w-1/2 contact-about'>
           <ul className='flex flex-col gap-4 ml-0 sm:ml-10 contact-details'>
             <li className='nav-links'>
               <FontAwesomeIcon className='icons footer-images' icon={faLocationDot} size="2x" />

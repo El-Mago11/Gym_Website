@@ -9,7 +9,7 @@ import 'swiper/css/scrollbar';
 
 const Testimonials = () => {
   return (
-    <div className='testimonial-section relative bottom-140' id='Testimonials'>
+    <div className='testimonial-section relative bottom-140 overflow-hidden' id='Testimonials'>
       <div>
         <h1 className='section-heading text-center text-3xl sm:text-4xl md:text-5xl'>Testimonials</h1>
         <div className='slider-container'>

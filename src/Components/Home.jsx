@@ -7,7 +7,7 @@ import { assets } from '../assets/assets';
 
 const Home = () => {
   return (
-    <div id='Home' className='home-section'>
+    <div id='Home' className='home-section overflow-hidden'>
            <Carousel className='carousel'
 
 

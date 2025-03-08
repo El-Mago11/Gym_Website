@@ -23,7 +23,8 @@ const Trainers = () => {
             whileInView={{ opacity: 1, x: 0 }} 
             viewport={{ once: true, amount: 0.3 }} 
             className='flex'>
-            <li>
+                 <div className='flex triplet-trainer'>
+                 <li>
                 <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.bodybuildingTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
@@ -133,6 +134,7 @@ const Trainers = () => {
                     </div>
                 </div>         
             </li>
+                 </div>
             </motion.div>
 
             <motion.div 
@@ -140,9 +142,10 @@ const Trainers = () => {
              transition={{ duration: 3 }} 
              whileInView={{ opacity: 1, x: 0 }} 
              viewport={{ once: true, amount: 0.3 }} 
-             className='flex'
+             className='flex '
             >
-            <li>
+               <div className='flex triplet-trainer'>
+               <li>
                 <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.yogaTrainer} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
@@ -255,6 +258,7 @@ const Trainers = () => {
                 </div>
             </li>
 
+               </div>
             </motion.div>
 
             <motion.div
@@ -264,7 +268,8 @@ const Trainers = () => {
                 viewport={{ once: true, amount: 0.3 }} 
                 className='flex'
             >
-            <li>
+               <div className='flex triplet-trainer'>
+               <li>
                 <div className='trainer-details'>
                     <img className='trainer-image ' src={assets.personalTrainer1} alt="" />
                     <div className='trainer-image-description bg-gray-200 '>
@@ -377,6 +382,7 @@ const Trainers = () => {
                     </div>
                 </div>
             </li>
+               </div>
             </motion.div>
         </ul>
       </div>
