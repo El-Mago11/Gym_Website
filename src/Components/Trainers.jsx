@@ -18,8 +18,8 @@ const Trainers = () => {
         </div>
         <ul className='flex flex-wrap gap-3.5 justify-center '>
             <motion.div 
-            initial={{ opacity: 0, x: 200 }} 
-            transition={{ duration: 3 }} 
+            initial={{ opacity: 0, x: 50 }} 
+            transition={{ duration: 2 }} 
             whileInView={{ opacity: 1, x: 0 }} 
             viewport={{ once: true, amount: 0.3 }} 
             className='flex'>
@@ -138,8 +138,8 @@ const Trainers = () => {
             </motion.div>
 
             <motion.div 
-             initial={{ opacity: 0, x: -200 }} 
-             transition={{ duration: 3 }} 
+             initial={{ opacity: 0, x: -20 }} 
+             transition={{ duration: 2 }} 
              whileInView={{ opacity: 1, x: 0 }} 
              viewport={{ once: true, amount: 0.3 }} 
              className='flex '
@@ -262,8 +262,8 @@ const Trainers = () => {
             </motion.div>
 
             <motion.div
-                initial={{ opacity: 0, x: 200 }} 
-                transition={{ duration: 3 }} 
+                initial={{ opacity: 0, x: 50 }} 
+                transition={{ duration: 2 }} 
                 whileInView={{ opacity: 1, x: 0 }} 
                 viewport={{ once: true, amount: 0.3 }} 
                 className='flex'

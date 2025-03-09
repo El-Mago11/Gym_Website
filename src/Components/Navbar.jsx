@@ -20,7 +20,7 @@ const Navbar = () => {
   console.log("isOpen", isOpen);
 
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-x-hidden-hidden">
       <div
         className="flex flex-row navbar"
         style={{ backgroundColor: colours.black }}

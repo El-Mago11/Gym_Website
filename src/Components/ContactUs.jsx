@@ -33,7 +33,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div id='Contact overflow-hidden' className='relative bottom-140 contact-section'>
+    <div id='Contact' className='relative bottom-140 contact-section overflow-x-hidden'>
       <h1 className='section-heading text-center text-3xl sm:text-4xl md:text-5xl'>Contact US</h1>
       <div className='flex flex-col sm:flex-row gap-8 mt-20'>
         {/* Contact details */}

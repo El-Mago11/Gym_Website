@@ -13,12 +13,15 @@ const Testimonials = lazy(() => import("./Components/Testimonials"));
 const ContactUs = lazy(() => import("./Components/ContactUs"));
 const Footer = lazy(() => import("./Components/Footer"));
 
+// Import the preloader component
+import Preloader from './Preloader';
+
 function App() {
   return (
-    <div id="full-section" className="h-[2915px]">
+    <div id="full-section" className="h-[2915px] overflow-x-clip">
       <ToastContainer />
       
-      <Suspense fallback={<div>Loading...</div>}>
+      <Suspense fallback={<Preloader />}>
         <Navbar />
         <About />
         <Classes />
