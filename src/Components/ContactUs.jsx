@@ -95,6 +95,7 @@ const ContactUs = () => {
               width="600"
               height="450"
               allowFullScreen
+              
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
               title="Responsive Google Map"

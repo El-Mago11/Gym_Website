@@ -22,7 +22,7 @@ const About = () => {
           {/* Mission Section */}
           <motion.div 
             initial={{ opacity: 0, x: -200 }} 
-            transition={{ duration: 2 }} 
+            transition={{ duration: 1 }} 
             whileInView={{ opacity: 1, x: 0 }} 
             viewport={{ once: true, amount: 0.3 }} 
             className='mission-div flex flex-col md:flex-row-reverse items-center justify-between'>
@@ -45,7 +45,7 @@ const About = () => {
           {/* Offer Section */}
           <motion.div 
             initial={{ opacity: 0, x: 200 }} 
-            transition={{ duration: 2 }} 
+            transition={{ duration: 1}} 
             whileInView={{ opacity: 1, x: 0 }} 
             viewport={{ once: true, amount: 0.3 }} 
             className='offer-div flex flex-col md:flex-row-reverse items-center justify-between'>
@@ -69,7 +69,7 @@ const About = () => {
           {/* Why Choose Us Section */}
           <motion.div 
             initial={{ opacity: 0, x: -200 }} 
-            transition={{ duration: 2 }} 
+            transition={{ duration: 1 }} 
             whileInView={{ opacity: 1, x: 0 }} 
             viewport={{ once: true, amount: 0.3 }} 
             className='why-div flex flex-col md:flex-row-reverse items-center justify-between'>
