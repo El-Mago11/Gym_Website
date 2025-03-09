@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClassSchedule = () => {
   return (
-    <div id="Class Schedule overflow-hidden" className="schedule p-6 bg-gray-100 ">
+    <div id="ClassSchedule overflow-hidden" className="schedule p-6 bg-gray-100 ">
       {/* Top Section with Gradient */}
       <div className=" p-8 rounded-lg mb-8">
         <h1 className="text-3xl font-semibold text-center mb-6 text-black section-heading">Our Class Schedule</h1>

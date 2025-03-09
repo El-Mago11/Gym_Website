@@ -7,12 +7,14 @@ import {
   faCaretDown,
   faTimes,
 } from "@fortawesome/free-solid-svg-icons";
+import { animate } from "framer-motion";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen((prevState) => !prevState);
+    
   };
 
   console.log("isOpen", isOpen);
@@ -43,14 +45,14 @@ const Navbar = () => {
                 <FontAwesomeIcon  onClick={toggleMenu}   icon={faTimes} size="" className='ml-1 text-white nav-links' color="black" />
                 </button> */}
             <li className="nav-links">
-              <a href="#Home">Home</a>
+              <a  onClick={toggleMenu} href="#Home">Home</a>
             </li>
             <li className="nav-links">
-              <a href="#About">About</a>
+              <a  onClick={toggleMenu} href="#About">About</a>
             </li>
 
             <li className="nav-links relative">
-              <a href="#Classes">
+              <a  onClick={toggleMenu} href="#Classes">
                 Classes{" "}
                 <FontAwesomeIcon
                   icon={faCaretDown}
@@ -62,31 +64,31 @@ const Navbar = () => {
               <div className="dropdown-menu">
                 <ul>
                   <li className="sub-links">
-                    <a href="#Classes">Classes</a>
+                    <a  onClick={toggleMenu} href="#Classes">Classes</a>
                   </li>
                   <li className="sub-links">
-                    <a href="#Class Schedule">Class Schedule</a>
+                    <a  onClick={toggleMenu} href="#ClassSchedule">Class Schedule</a>
                   </li>
                 </ul>
               </div>
             </li>
             <li className="nav-links">
-              <a href="#Trainers">Trainers</a>
+              <a  onClick={toggleMenu} href="#Trainers">Trainers</a>
             </li>
             <li className="nav-links">
-              <a href="#Events">Events</a>
+              <a onClick={toggleMenu}  href="#Events">Events</a>
             </li>
             {/* <li className='nav-links'>
                     <a href="#Blog">Blog</a>
                 </li> */}
             <li className="nav-links">
-              <a href="#Pricing">Pricing</a>
+              <a  onClick={toggleMenu} href="#Pricing">Pricing</a>
             </li>
             <li className="nav-links">
-              <a href="#Testimonials">Testimonials</a>
+              <a  onClick={toggleMenu} href="#Testimonials">Testimonials</a>
             </li>
             <li className="nav-links">
-              <a href="#Contact">Contact</a>
+              <a  onClick={toggleMenu} href="#Contact">Contact</a>
             </li>
           </ul>
 

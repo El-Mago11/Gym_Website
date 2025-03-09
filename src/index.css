@@ -511,7 +511,6 @@ th {
 /*  Mission and why divs*/
 
 
-
 /* Responsiveness */
 @media screen and (max-width: 900px) {
 .body{
@@ -530,6 +529,11 @@ th {
     padding-top: 80px;
     background-color: var(--white-colour);
     display: none;
+    transition: left 0.5s ease-in;
+  }
+
+  .nav-links-container.is-open{
+    transition: 3s ease-in;
   }
   .navbar .nav-links-container .nav-menu.is-open {
     display: flex;
